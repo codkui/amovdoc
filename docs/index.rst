@@ -8,8 +8,9 @@ Welcome to amov's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:
 
-    hello
+   hello
 
 
 Indices and tables
