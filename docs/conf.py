@@ -16,6 +16,31 @@
 
 
 # -- Project information -----------------------------------------------------
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+
+
+# -- Project information -----------------------------------------------------
+import sphinx_rtd_theme
+from recommonmark.parser import CommonMarkParser
+
+import recommonmark
+from recommonmark.transform import AutoStructify
+
+# At the bottom of conf.py
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'url_resolver': lambda url: github_doc_root + url,
+            'auto_toc_tree_section': 'Contents',
+            }, True)
+    app.add_transform(AutoStructify)
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+source_suffix = ['.rst', '.md']
+
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 project = 'amov'
 copyright = '2019, amov'
