@@ -23,6 +23,11 @@ Welcome to amov's documentation!
 小分类1
 -------------
 
+.. toctree::
+   :maxdepth: 1
+
+   hello
+
 这里是左侧分类2
 ===================
 
