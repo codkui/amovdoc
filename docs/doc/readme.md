@@ -55,3 +55,10 @@ Welcome to amov's documentation!
 
 
 这里注意，一定要在分类/配置属性结构/引入文档处上下预留空行。
+
+# 改变文档样式
+
+在conf.py文件中
+找到 
+html_theme = 'sphinx_rtd_theme'
+后面的值就是选择的样式，可以根据sphinx文档进行更改
