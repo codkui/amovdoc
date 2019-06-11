@@ -12,7 +12,13 @@ Welcome to amov's documentation!
 
    hello
 
+这里是左侧分类
+===================
 
+.. toctree::
+   :maxdepth: 1
+
+   hello
 Indices and tables
 ==================
 
