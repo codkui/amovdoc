@@ -12,7 +12,15 @@ Welcome to amov's documentation!
 
    hello
 
-这里是左侧分类
+这里是左侧分类1
+===================
+
+.. toctree::
+   :maxdepth: 1
+
+   hello
+
+这里是左侧分类2
 ===================
 
 .. toctree::
