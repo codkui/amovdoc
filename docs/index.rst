@@ -15,13 +15,14 @@ Welcome to amov's documentation!
 这里是左侧分类1
 ===================
 
+小分类1
+-------------
+
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    hello
 
-小分类1
--------------
 
 .. toctree::
    :maxdepth: 1
