@@ -40,6 +40,7 @@ read the docs 会读取项目下的docs文件夹，并自动编译为在线文�
 当前只使用 index.rst 作为目录，其他文件建议使用md格式编写
 
 #### index.rst
+<pre><code>
 
 Welcome to amov's documentation!
 ================================ //此处表示左侧的一个1级分类
@@ -53,6 +54,7 @@ Welcome to amov's documentation!
 
    hello  //引入的md文档文件，可以不加 .md的后缀。 这里表示引入同级目录下的hello文件，并读取 一级目录作为主页展示目录。这里也可以书写 如 test/index ，表示读取目录 test下的index.md文件作为文档
 
+</code></pre>
 
 这里注意，一定要在分类/配置属性结构/引入文档处上下预留空行。
 
