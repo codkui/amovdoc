@@ -19,10 +19,10 @@ Welcome to amov's documentation!
    :maxdepth: 1
 
    hello
-   
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Indices and tables
+.. ==================
+
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
