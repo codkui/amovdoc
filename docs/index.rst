@@ -19,6 +19,7 @@ Welcome to amov's documentation!
    :maxdepth: 1
 
    hello
+   
 Indices and tables
 ==================
 
