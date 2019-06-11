@@ -20,6 +20,9 @@ Welcome to amov's documentation!
 
    hello
 
+小分类1
+-------------
+
 这里是左侧分类2
 ===================
 
@@ -28,6 +31,13 @@ Welcome to amov's documentation!
 
    hello
 
+文档协作简单教程
+===================
+
+.. toctree::
+   :maxdepth: 1
+
+   doc/readme
 .. Indices and tables
 .. ==================
 
